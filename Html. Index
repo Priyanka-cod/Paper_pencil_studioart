@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Pencil StudiArt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .gallery, .blog, .portfolio, .ai-generator, .contact {
+            padding: 20px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .image-container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Paper Pencil StudiArt</header>
+    
+    <section class="gallery">
+        <h2>AI Art Gallery</h2>
+        <div class="image-container">
+            <img src="art1.jpg" alt="AI Art 1">
+            <img src="art2.jpg" alt="AI Art 2">
+            <img src="art3.jpg" alt="AI Art 3">
+        </div>
+    </section>
+    
+    <section class="blog">
+        <h2>Blog & Tutorials</h2>
+        <p>Coming soon! AI art tips, techniques, and inspiration.</p>
+    </section>
+    
+    <section class="portfolio">
+        <h2>My AI Art Journey</h2>
+        <p>Explore my creative journey with AI-powered digital art.</p>
+    </section>
+    
+    <section class="ai-generator">
+        <h2>AI Image Generator</h2>
+        <p>Type a prompt and generate AI art instantly!</p>
+        <input type="text" placeholder="Enter your prompt here">
+        <button>Generate</button>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: contact@paperpencilstudiart.com</p>
+        <p>Follow me on social media!</p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Paper Pencil StudiArt | Created with ❤️
+    </footer>
+</body>
+</html>
+
+
+
